@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pipedrive/pipedrive": "^4.0"
+    }
+}

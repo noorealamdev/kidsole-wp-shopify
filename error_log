@@ -1,0 +1,10 @@
+[01-Feb-2023 20:30:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/codenpyc/public_html/kidsole/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/codenpyc/public_html/kidsole/wp-includes/PHPMailer/PHPMailer.php(1945): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/codenpyc/public_html/kidsole/wp-includes/PHPMailer/PHPMailer.php(1666): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/codenpyc/public_html/kidsole/wp-includes/PHPMailer/PHPMailer.php(1502): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/codenpyc/public_html/kidsole/wp-includes/pluggable.php(542): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/codenpyc/public_html/kidsole/wp-includes/user.php(3250): wp_mail()
+#5 /home/codenpyc/public_html/kidsole/wp-login.php(784): retrieve_password()
+#6 {main}
+  thrown in /home/codenpyc/public_html/kidsole/wp-includes/PHPMailer/PHPMailer.php on line 874
